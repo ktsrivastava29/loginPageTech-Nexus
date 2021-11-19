@@ -1,16 +1,27 @@
 import React from 'react';
-
+import backgroundVideo from './Assets/bg.mp4'
 import "./Login.css"
 
 function Login() {
   return(
-   
+   <>
+   {/* <video autoPlay loop muted id='video'>
+       <source src={backgroundVideo} type='video/mp4'/>
+     </video> */}
+     <div className="videobox">
+                <video 
+                src={backgroundVideo} 
+                
+                autoPlay={true}
+                muted
+                loop></video>
+            </div>
   <div id="loginform">
 
   <FormHeader title="LOG IN" />
   <Form />
   <OtherMethods />
-</div>
+</div></>
 );
 }
 export default Login;
