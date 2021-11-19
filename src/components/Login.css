@@ -65,7 +65,7 @@ body{
   padding-top: 0.5rem;
   box-shadow: inset 0px -3px 0px 0px rgba(41, 17, 17, 0.2);
   transition: box-shadow 0.2s ease-in;
-  background-color: black;
+  background-color: transparent;
   border-width: .1em;
   border-style: solid;
  border-color: #FFFFFF;
@@ -100,8 +100,8 @@ body{
   font-size: 1.1rem;
   color: rgb(255, 255, 255);
   font-weight: 700;
-  background: rgb(0, 0, 0);
   
+  background-color: transparent;
   border-width: .1em;
   border-style: solid;
  border-color: #FFFFFF;
